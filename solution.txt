@@ -1,0 +1,1 @@
+Apparently, the bug was fixed by adding one more .txt file.  Who knew?
