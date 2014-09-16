@@ -10,7 +10,7 @@ PRO: run 'git rev-list HEAD --count'.  Found on http://stackoverflow.com/questio
 
 4. Run 'git push origin master'
 
-5. Run 'git reset --hard HEAD~1'. 'git reset --hard HEAD^' will also work. 
+5. Run 'git reset --hard HEAD~1'. 'git reset --hard HEAD^' will also work.  To sync your remote up properly, you'll need to run 'git push --force origin master' 
 
 
 Advanced Question Answers
@@ -23,4 +23,4 @@ Advanced Question Answers
 
 4. Run 'git rebase --onto master server bugfix57' from any branch
 
-5. Run 'git rebase --onto server~3 server server'
+5. Run 'git rebase --onto server~4 server~1 server'
